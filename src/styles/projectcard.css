@@ -1,0 +1,36 @@
+.projectCardContainer {
+    text-align: left;
+    background-color: #111;
+    border-radius: 1.5rem;
+    border: solid 4px #444;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.traitHighlight {
+    font-weight: bold;
+    color: #E6a400;
+}
+
+.projectTitle {
+    text-decoration: underline;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+}
+
+.projectDescription {
+    font-size: 0.8rem;
+}
+
+.projectImage {
+    border-radius: 2rem;
+    border: lightgrey 3px solid;
+    height: 10rem;
+    width: 20rem;
+    align-self: center;
+    margin-top: 0.5rem;
+    object-fit: cover;
+}
