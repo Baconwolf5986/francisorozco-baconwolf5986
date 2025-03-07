@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import './App.css';
 import ProjectCard from './components/ProjectCard';
-import profileImage from './assets/profile_no_background.png'; // Import images
-import githubLogo from './assets/github-mark.svg';
-import linkedinLogo from './assets/LI-In-Bug.png';
-import gmailLogo from './assets/gmail-logo.svg';
-import kpopleImage from './assets/kpople.png';
-import driverDilemmaImage from './assets/driverdilemma.png';
-import fencingQueueBotImage from './assets/fencingqueuebot.png';
+import profileImage from '/profile_no_background.png';
+import githubLogo from '/github-mark.svg';
+import linkedinLogo from '/LI-In-Bug.png';
+import gmailLogo from '/gmail-logo.svg';
+import kpopleImage from '/kpople.png';
+import driverDilemmaImage from '/driverdilemma.png';
+import fencingQueueBotImage from '/fencingqueuebot.png';
 
 function App() {
     const [count, setCount] = useState(0);
