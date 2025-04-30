@@ -78,7 +78,7 @@ function App() {
                         </ProjectCard>
                         <ProjectCard
                             projectTitle="Study Duel"
-                            link="https://github.com/Baconwolf5986/FencingQueue-TelegramBot"
+                            link="https://gamification-bbez18eea-baconwolf5986s-projects.vercel.app/"
                             image={studyDuelImage}
                         >
                             A <span className="traitHighlight"> React.js </span> full-stack app for users to test their knowledge against friends
