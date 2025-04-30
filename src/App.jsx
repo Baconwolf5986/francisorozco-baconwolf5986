@@ -6,8 +6,9 @@ import githubLogo from '/github-mark.svg';
 import linkedinLogo from '/LI-In-Bug.png';
 import gmailLogo from '/gmail-logo.svg';
 import kpopleImage from '/kpople.png';
-import driverDilemmaImage from '/driverdilemma.png';
-import fencingQueueBotImage from '/fencingqueuebot.png';
+import wordleCloneImage from '/wordleclone.png';
+import studyDuelImage from '/studyduel.png';
+import directXImage from '/directx.png';
 
 function App() {
     const [count, setCount] = useState(0);
@@ -59,38 +60,40 @@ function App() {
                             image={kpopleImage}
                         >
                             A full stack web application. A daily wordle-like game for kpop fans. A{' '}
-                            <span className="traitHighlight">React, Vite frontend</span> using a firebase
-                            firestore database. A{' '}
+                            <span className="traitHighlight">React.js, frontend</span> using a firebase
+                             database and <span className="traitHighlight"> AWS S3 </span> and <span className="traitHighlight"> Cloudflare CDN</span> for image service.  A{' '}
                             <span className="traitHighlight">Node.js, Express.js server</span> secured with
-                            cors and helmet. Hosted using{' '}
-                            <span className="traitHighlight">nginx on an AWS EC2</span> instance.
+                            cors. Hosted using{' '}
+                            <span className="traitHighlight"> AWS EC2 </span> instance.
                         </ProjectCard>
                         <ProjectCard
-                            projectTitle="Driver-Dilemma"
-                            link="https://ufethics-team2-driver-dilemma.netlify.app/"
-                            image={driverDilemmaImage}
+                            projectTitle="Wordle Clone"
+                            link="https://wordle-eight-henna.vercel.app/"
+                            image={wordleCloneImage}
                         >
-                            A website hosted to tackle the ethical questions of autonomous vehicles. A{' '}
-                            <span className="traitHighlight">React, Vite frontend</span> A{' '}
-                            <span className="traitHighlight">firebase firestore database</span> to poll users on
-                            ethical issues.
+                             A <span className="traitHighlight">React.js frontend, </span>to mimic wordle's logic and stat storage.
+                                 uses <span className="traitHighlight">Node.js, Firebase </span> for 
+                            <span className="traitHighlight"> NoSQL </span> 
+                            database and <span className="traitHighlight"> Google Authentication</span>.
                         </ProjectCard>
                         <ProjectCard
-                            projectTitle="FencingQueue Bot"
+                            projectTitle="Study Duel"
                             link="https://github.com/Baconwolf5986/FencingQueue-TelegramBot"
-                            image={fencingQueueBotImage}
+                            image={studyDuelImage}
                         >
-                            A telegram bot used by the UF Fencing club to manage queues for fencing bouts. Created
-                            using <span className="traitHighlight">tgbot-cpp API</span> in C++.
+                            A <span className="traitHighlight"> React.js </span> full-stack app for users to test their knowledge against friends
+                            using user created quizzes. Real-time gameplay implemented with <span className="traitHighlight">Node.js and Socket.io</span>. 
+                            Uses <span className="traitHighlight">AWS Lambda and MongoDB</span> for storing/getting user data and quizzes.
+
                         </ProjectCard>
                         <ProjectCard
                             projectTitle="DirectX12 - BaconBox"
                             link="https://github.com/Baconwolf5986/BaconBox"
-                            image={kpopleImage}
+                            image={directXImage}
                         >
                             A rendering engine built to test rendering techniques on Windows. Built to learn
                             modern graphics APIs and rendering techniques. A{' '}
-                            <span className="traitHighlight">DirectX12</span> rendering engine built in C++.
+                            <span className="traitHighlight">DirectX12</span> rendering engine built in <span className="traitHighlight">C++</span>.
                         </ProjectCard>
                     </div>
                 </div>
