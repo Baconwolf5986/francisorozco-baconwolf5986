@@ -24,17 +24,13 @@ function App() {
                         alt="Profile"
                         className="profileImage"
                     />
+                    <div className="titles">
+                        <h1 className="nameTitle">Francis Orozco</h1>
+                        <h2 className="usernameTitle">Baconwolf5986</h2>
+                    </div>
                 </div>
 
-                <div className="titles">
-                    <h1 className="nameTitle">Francis Orozco</h1>
-                    <h2 className="usernameTitle">Baconwolf5986</h2>
-                </div>
-            </div>
-
-            <div className="rightContainer">
                 <div className="LinksHalf">
-                    <h1 className="Header">LINKS</h1>
                     <div className="links">
                         <a href="https://github.com/baconwolf5986" className="link">
                             <img src={githubLogo} className="linkLogo" alt="GitHub" />
@@ -50,7 +46,9 @@ function App() {
                         </a>
                     </div>
                 </div>
+            </div>
 
+            <div className="rightContainer">
                 <div className="ProjectHalf">
                     <h1 className="Header">PROJECTS</h1>
                     <div className="projectsContainer">
